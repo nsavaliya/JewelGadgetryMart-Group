@@ -69,7 +69,7 @@ const ContactPage = () => {
               {/* Submit button */}
               <div className="text-center">
                 <button
-                  class="my-2 px-4 mx-auto btn btn-dark"
+                  className="btn btn-outline-dark btn-sm m-2" style={{ backgroundColor: '#0E1C4E', color: '#ffff' }}
                   type="submit"
                 >
                   Send

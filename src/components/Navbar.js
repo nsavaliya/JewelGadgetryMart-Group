@@ -18,7 +18,7 @@ const Navbar = (props) => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div>
           {/* Navigation links */}
           <ul className="navbar-nav m-auto my-2 text-center">
             <li className="nav-item">
@@ -40,17 +40,17 @@ const Navbar = (props) => {
 
           {/* Buttons section */}
           <div className="buttons text-center">
-            <NavLink to="/login" className="btn btn-outline-dark m-2">Login</NavLink>
-            <NavLink to="/register" className="btn btn-outline-dark m-2">Register</NavLink>
+            <NavLink to="/login" className="btn btn-outline-dark btn-sm m-2" style={{ backgroundColor: '#0E1C4E', color: '#ffff' }}>Login</NavLink>
+            <NavLink to="/register" className="btn btn-outline-dark btn-sm m-2" style={{ backgroundColor: '#0E1C4E', color: '#ffff' }} >Register</NavLink>
             {/* Display the number of items in the cart using Redux state */}
-            <NavLink to="/cart" className="btn btn-outline-dark m-2">Cart ({state.length})</NavLink>
+            <NavLink to="/cart"className="btn btn-outline-dark btn-sm m-2" style={{ backgroundColor: '#0E1C4E', color: '#ffff' }}>Cart ({state.length})</NavLink>
           </div>
         </div>
 
         {/* Conditional rendering of a welcome message */}
         <h2>{props.name ? `Welcome - ${props.name}` : ""}</h2>
       </div>
-    </nav>
+    </nav> 
   );
 };
 

@@ -143,7 +143,7 @@ function Register() {
         // }
         />
 
-        <div className={styles.footer}>
+        <div>
           <b className={styles.error}>{errorMsg}</b>
           <button onClick={handleSubmission} disabled={submitButtonDisabled}>
             Signup

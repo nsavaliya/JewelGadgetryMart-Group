@@ -57,9 +57,7 @@
 }
 
 /* Styles for the "Login" button on hover */
-.footer button:hover {
-  background-color: #c9c6cc; /* Background color on hover */
-}
+
 
 /* Styles for the paragraph in the footer */
 .footer p {

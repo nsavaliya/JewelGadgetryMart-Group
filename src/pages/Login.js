@@ -55,7 +55,7 @@ function Login() {
           placeholder="Enter Password"
         />
 
-        <div className={styles.footer}>
+        <div>
           <b className={styles.error}>{errorMsg}</b>
           <button disabled={submitButtonDisabled} onClick={handleSubmission}>
             Login
