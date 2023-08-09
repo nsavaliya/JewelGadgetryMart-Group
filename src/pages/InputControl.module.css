@@ -1,0 +1,32 @@
+/* Styles for the container div of the InputControl component */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Gap between child elements (label and input) */
+}
+
+/* Styles for the label element within the container */
+.container label {
+  font-weight: 700; /* Bold font weight */
+  font-size: 1rem; /* Font size 1rem (16px) */
+  color: #313131; /* Text color */
+}
+
+/* Styles for the input element within the container */
+.container input {
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #dddddd; /* Border with color #dddddd */
+  outline: none; /* Remove the default focus outline */
+  padding: 10px 15px; /* Padding around the input text */
+  color: #000; /* Text color */
+}
+
+/* Styles for the input element on hover */
+.container input:hover {
+  border-color: #ccc; /* Border color on hover */
+}
+
+/* Styles for the input element on focus (when selected) */
+.container input:focus {
+  border-color: #9900ff; /* Border color when focused */
+}

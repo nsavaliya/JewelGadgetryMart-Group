@@ -1,0 +1,77 @@
+/* Styles for the container div of the Login component */
+.container {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #b97730, #b0a7b6); /* Background gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the innerBox div, which contains the login form */
+.innerBox {
+  min-width: 480px; /* Minimum width of the innerBox */
+  height: 500px; 
+  width: 500px; 
+  padding: 30px; 
+  border-radius: 10px; /* Rounded corners */
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Gap between child elements (form inputs) */
+}
+
+/* Styles for the footer div, which contains the error message, "Login" button, and sign up link */
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Gap between child elements (error message, "Login" button, and link) */
+}
+
+/* Styles for the error message in the footer */
+.footer .error {
+  font-weight: bold;
+  font-size: 0.875rem; 
+  color: #8b827f; /* Text color */
+  text-align: center;
+}
+
+/* Styles for the "Login" button in the footer */
+.footer button {
+  outline: none;
+  border: none;
+  background-color: #080808; /* Background color */
+  color: #fff;
+  border-radius: 5px; /* Rounded corners */
+  font-weight: bold;
+  font-size: 1rem; 
+  padding: 10px 16px; 
+  width: 100%;
+  transition: 100ms; /* Transition effect for smooth hover */
+  cursor: pointer;
+}
+
+/* Styles for the "Login" button when disabled */
+.footer button:disabled {
+  background-color: gray !important; /* Gray background color when disabled */
+}
+
+/* Styles for the "Login" button on hover */
+.footer button:hover {
+  background-color: #c9c6cc; /* Background color on hover */
+}
+
+/* Styles for the paragraph in the footer */
+.footer p {
+  font-weight: 700; 
+  color: #000; /* Text color */
+}
+
+
+.footer p span a {
+  font-weight: bold;
+  color: #d9d0df; /* Text color */
+  letter-spacing: 1px; 
+  font-size: 1rem; /* Font size 1rem (16px) */
+  text-decoration: none; 
+}
