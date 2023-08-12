@@ -121,9 +121,6 @@ const filterProduct = (category) => {
                     <li className="list-group-item">Vestibulum at eros</li> */}
                 </ul>
                 <div className="card-body" >
-                  <Link to={"/product/" + product.id} className="btn btn-dark m-1" style={{ backgroundColor: '#4682A9', color: '#ffff' }}>
-                    Buy Now
-                  </Link>
                   <button className="btn btn-dark m-1" style={{ backgroundColor: '#4682A9', color: '#ffff' }} onClick={() => addProduct(product)}>
                     Add to Cart
                   </button>

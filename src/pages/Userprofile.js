@@ -71,7 +71,7 @@ const Userprofile = () => {
               {userDetails?.firstName && <span>{userDetails.firstName}</span>}
             </div>
             <div className="form my-3">
-              <label htmlFor="email">Email: mayur213@gmail.com</label>
+              <label htmlFor="email">Email:</label>
               {userEmail}
             </div>
             <div className="form my-3">

@@ -21,7 +21,7 @@ const Navbar = (props) => {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/product">Products</NavLink>
-            </li>
+            </li> 
             <li className="nav-item">
               <NavLink className="nav-link" to="/about">About Us</NavLink>
             </li>
@@ -45,6 +45,7 @@ const Navbar = (props) => {
       <div className="welcome-message">
         {props.name && <h2 className="text-center mt-3">Welcome, {props.name}!</h2>}
       </div>
+      
     </nav>
   );
 };
